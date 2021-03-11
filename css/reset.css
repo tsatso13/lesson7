@@ -1,0 +1,41 @@
+.sky-image {background-image: url(https://wallpaperaccess.com/full/1397286.jpg);
+height:1000px;
+width:100%;
+background-repeat:no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.bird {position: absolute;
+	top:600px;
+	left:500px;
+	animation: bird 30s infinite;	
+}
+
+@keyframes bird {
+	0% { left: 100px; }
+ 	100% {left: 1500px;  }
+
+.sun {
+ 	position: relative;
+	top: 100px;
+	left: 100px;
+	animation: sun 30s infinite;
+}
+
+ @keyframes sun {
+ 	0% { top: 0px; }
+ 	100% {top: 400px;}
+
+.clouds { width: 400px;
+    height: 7 00px;
+    position: relative;
+    animation: clouds 40s infinite;
+    z-index: 9;}
+
+    @keyframes clouds{
+    from{left: 0px; top: 220px;}
+    to{left:400px;top: 220px;}
+}
+
+
