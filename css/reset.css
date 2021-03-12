@@ -17,7 +17,7 @@ position: relative;
  	100% {left: 1500px;  }
 
 .sun {
- 	position: relative;
+ 	position: absolute;
 	top: 100px;
 	left: 100px;
 	animation: sun 30s infinite;
@@ -29,7 +29,7 @@ position: relative;
 
 .clouds { width: 400px;
     height: 7 00px;
-    position: relative;
+    position: absolute;
     animation: clouds 40s infinite;
     z-index: 9;}
 
