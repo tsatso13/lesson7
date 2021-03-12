@@ -15,6 +15,7 @@ position: relative;
 @keyframes bird {
 	0% { left: 100px; }
  	100% {left: 1500px;  }
+ }
 
 .sun {
  	position: absolute;
@@ -26,6 +27,7 @@ position: relative;
  @keyframes sun {
  	0% { top: 0px; }
  	100% {top: 400px;}
+ }
 
 .clouds { width: 400px;
     height: 7 00px;
